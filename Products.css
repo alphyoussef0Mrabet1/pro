@@ -1,0 +1,137 @@
+
+
+
+
+*{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #000000;
+    display: flex;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #de0a0a;
+  }
+  
+  li {
+    float: left;
+    background-color: #000000;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(134, 126, 126);
+    text-align: end;
+    padding: 20px 15px;
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 15px;
+    align-items: flex-end;
+    
+  }
+  
+  li a:hover {
+    background-color: #f6f8ff;
+    border-radius: 9px;
+    transition: 0.7s;
+
+  }
+
+  main{
+    padding-left: 10px;
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    background: url(img/Qualcomm-now-sponsors-Manchester-United.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+main h1{
+    font-size: 80px;
+    color: rgb(7, 6, 7);
+    padding-left: 80px;
+   }
+
+   main p{
+    font-size: 80px;
+    color: rgb(207, 76, 181);
+    padding-left: 80px;
+   }
+
+   main h2{
+    font-size: 70px;
+    color: rgb(207, 76, 181);
+    padding-left: 80px;
+   }
+
+
+   main .page2 {
+    padding-left: 23px;
+    font-size: 70px;
+    color: rgb(88, 61, 61);
+   }
+
+
+
+
+
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 1em;
+  }
+  
+  .card {
+    max-width: 200px;
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2em;
+  
+  }
+  
+  .price {
+    color: rgb(153, 145, 145);
+    font-size: 22px;
+  }
+  
+  .card button {
+    outline: 1PX;
+    padding: 2px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 90%;
+    font-size: 18px;
+    transition: calc(0.7s);
+    border-radius: 1EM;
+    
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .name{
+    padding: 40PX;
+    text-align: center;
+  }
